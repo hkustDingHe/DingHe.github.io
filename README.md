@@ -1,4 +1,4 @@
-### [**Home**](README.md) / [**Research**](pages/research.md) / [**Teaching**](pages/teaching.md) / [**Members**](pages/people.md) / [**Publications**](pages/publications.md) / [**Join us**](pages/joinus.md) / [**News**](pages/news.md) 
+### [**Home**](README.md) | [**Research**](pages/research.md) | [**Publications**](pages/publications.md) | [**Members**](pages/people.md) | [**Members**](pages/people.md) | [**Contact us**](pages/joinus.md) | [**Others**](pages/news.md) 
 ---
 
 # About Us
