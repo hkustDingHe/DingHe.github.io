@@ -19,5 +19,3 @@ Life conveys energy and elements and shapes the chemistry of aquatic systems; bi
 2. geochemical dynamics under the impacts of drastic changes in ecology such as species invasion. 
 3. dynamic production and fluxes of greenhouse gases nitrous oxides in intertidal zones. 
 
-#### See [here](/pages/research.md) for specific projects
-
