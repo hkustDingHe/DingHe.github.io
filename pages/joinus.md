@@ -1,6 +1,6 @@
 
 
-### [**Home**](README.md) | [**Research**](pages/research.md) | [**Publications**](pages/publications.md) | [**Awards and Recreation**](pages/people.md) | [**Members**](pages/people.md) | [**Contact us**](pages/joinus.md) | [**Others**](pages/news.md) 
+### [**Home**](../README.md) | [**Research**](pages/research.md) | [**Publications**](pages/publications.md) | [**Awards and Recreation**](pages/teaching.md) | [**Members**](pages/people.md) | [**Contact us**](pages/joinus.md) | [**Others**](pages/news.md) 
 ---
 ## Join Us
 
