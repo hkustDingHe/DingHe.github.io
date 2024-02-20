@@ -1,0 +1,70 @@
+     <!-- This is a comment -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="True">     <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="MobileOptimized" content="320">   
+    <script src="https://kit.fontawesome.com/b2456d3819.js" crossorigin="anonymous"></script>
+ {% seo %} 
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"> 
+ </head>
+   
+  <body>  
+   <div class="wrapper">
+      <header>
+           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> 
+           <h3>Aquatic Biogeochem @HKUST</h3> 
+           <img src="/images/malawi3.png" width="240"> 
+            <!--   <h3>Jiying Li</h3> -->
+           <p>{{ site.description | default: site.github.project_tagline }}</p>   
+          <style>   
+             p.small {
+                line-height: 0.7;
+                }
+
+              p.big {
+                 line-height: 1.8;
+                 }
+               body {
+                 font-family: Arial, Helvetica, sans-serif;
+                 }
+           </style>   
+        <img align="right" style="float: left;" src="https://img.icons8.com/pastel-glyph/24/null/place-marker--v1.png"/> 
+           <p> The Hong Kong University of Science and Technology </p>    
+        <img align="right" style="float: left;" src="https://img.icons8.com/external-jumpicon-line-ayub-irawan/24/null/external-announcement-e-commerce-jumpicon-line-jumpicon-line-ayub-irawan.png"/>
+           <p> We have <a href="https://jiyingli.github.io/pages/joinus.html"><span style='color:#A10A28'>positions open</span></a> for PhD students and postdoc! </p>    
+           
+        <a href="mailto:jiyingli@ust.hk"> <i class='fa fa-envelope' style='font-size:24px;color:#797D7A'></i></a>
+        <a href="https://scholar.google.com/citations?user=3_VBc8oAAAAJ&hl=en" target="_blank"><img src="https://img.icons8.com/ios/50/null/google-scholar--v2.png"/ width="22"></a>
+        <a href="https://www.researchgate.net/profile/Jiying_Li" target="_blank"  rel="noopener noreferrer"><i class='fab fa-researchgate' style='font-size:22px;color:#6BD6C8'></i></a>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=55384216800" target="_blank"  rel="noopener noreferrer"><img src="/images/SC.png"/ width="20"></a>   
+        <a href="https://twitter.com/JIYLi?ref_src=twsrc%5Etfw" target="_blank"  rel="noopener noreferrer"><img src="https://img.icons8.com/fluency/48/null/twitter.png"/width="20"> </a>  
+        <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-1677-6922" href="https://orcid.org/0000-0003-1677-6922" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">0000-0003-1677-6922</a></div> 
+     
+      </header>
+      <section>       
+   
+        {{ content }} 
+           
+      </section>
+     
+      </div>
+       
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+
+       </script>
+       
+    {% endif %}
+  </body>
+</html>
